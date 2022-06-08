@@ -35,4 +35,4 @@ jobs:
         run: npm install --g surge
         
       - name: deploy project dir
-        run: surge ./ uppity-test.surge.sh --token $ {{ secrets.TEST_TOKEN }} 
+        run: surge ./ uppity-test.surge.sh --token ${{ secrets.TEST_TOKEN }} 
